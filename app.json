@@ -32,7 +32,18 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Izinkan aplikasi untuk mengakses galeri foto Anda.",
+          "savePhotosPermission": "Izinkan aplikasi untuk menyimpan foto ke galeri."
+        }
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
